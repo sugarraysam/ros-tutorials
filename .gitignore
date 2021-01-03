@@ -1,0 +1,6 @@
+# catkin
+**/catkin_ws/build/*
+**/catkin_ws/devel/*
+
+# Ignore this for now
+local/*
