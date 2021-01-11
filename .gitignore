@@ -1,6 +1,10 @@
 # catkin
 **/catkin_ws/build/*
 **/catkin_ws/devel/*
+**/.catkin_workspace
 
 # Ignore this for now
 local/*
+
+# vscode compilation db
+**/compile_commands.json
