@@ -1,6 +1,6 @@
 # catkin
-**/catkin_ws/build/*
-**/catkin_ws/devel/*
+**/build/*
+**/devel/*
 **/.catkin_workspace
 
 # Ignore this for now
@@ -8,3 +8,6 @@ local/*
 
 # vscode compilation db
 **/compile_commands.json
+
+# CMakeLists.txt build dir
+**/_build
