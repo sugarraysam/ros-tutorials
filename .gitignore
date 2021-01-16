@@ -11,3 +11,4 @@ local/*
 
 # CMakeLists.txt build dir
 **/_build
+**/.cache

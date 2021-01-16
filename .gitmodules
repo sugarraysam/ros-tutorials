@@ -1,0 +1,3 @@
+[submodule "ros1/kalman_filters/external/eigen"]
+    path = ros1/kalman_filters/external/eigen
+	url = https://gitlab.com/libeigen/eigen.git

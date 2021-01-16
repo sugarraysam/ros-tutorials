@@ -1,7 +1,10 @@
 TARGETS := build run clean help
+.PHONY: $(TARGETS)
+
+CMAKE_OPTIONS := -DEIGEN_BUILD_PKGCONFIG=OFF -DEIGEN_BUILD_DOC=OFF -DBUILD_TESTING=OFF -Wno-dev
 
 build:
-	@cmake -B _build
+	@cmake -B _build $(CMAKE_OPTIONS)
 	@cd _build && make
 	@ln -sf _build/compile_commands.json compile_commands.json
 
